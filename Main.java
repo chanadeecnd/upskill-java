@@ -89,6 +89,7 @@ public class Main{
     //3. เขียนโค้ดเพื่อดึงข้อมูลจาก API ภายนอกและประมวลผลข้อมูล
     public static void getAPI(){
         try {
+            //url from serverAPI folder
             String apiUrl = "http://localhost:8000/sum/10&50";
             URI uri = new URI(apiUrl);
 
